@@ -24,15 +24,15 @@ int _tmain(int argc, LPTSTR argv[]) {
 	_setmode(_fileno(stdin), _O_WTEXT);
 	_setmode(_fileno(stdout), _O_WTEXT);
 #endif
-
-	tcout << "fim para sair\n";
-	cin >> str;
-	do {
-		getline(tcin, str);
-		//Maiúsculas
-		for (unsigned int i = 0; i < str.length(); i++)
-			str[i] = _totupper(str[i]);
-		tcout << TEXT("Frase: ") << str << TEXT("Tamanho:") << str.length() << endl;
-	} while (str != TEXT("FIM"));
+//	string str;
+//	tcout << "fim para sair\n";
+//	cin >> str;
+//	do {
+//		//getline(tcin, str);
+//		//Maiúsculas
+//		for (unsigned int i = 0; i < str.length(); i++)
+//			str[i] = _totupper(str[i]);
+//		tcout << TEXT("Frase: ") << str << TEXT("Tamanho:") << str.length() << endl;
+//	} while (str != TEXT("FIM"));
 	return 0;
 }
