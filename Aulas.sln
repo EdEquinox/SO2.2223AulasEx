@@ -21,6 +21,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "F3Ex3", "F3Ex3\F3Ex3.vcxpro
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "F3Ex4", "F3Ex4\F3Ex4.vcxproj", "{5EBD3A48-0010-41E1-9EAA-982AF2E430BA}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "F4Ex1", "F4Ex1\F4Ex1.vcxproj", "{EB91708F-BE37-4A2C-897D-0777470D343A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -101,6 +103,14 @@ Global
 		{5EBD3A48-0010-41E1-9EAA-982AF2E430BA}.Release|x64.Build.0 = Release|x64
 		{5EBD3A48-0010-41E1-9EAA-982AF2E430BA}.Release|x86.ActiveCfg = Release|Win32
 		{5EBD3A48-0010-41E1-9EAA-982AF2E430BA}.Release|x86.Build.0 = Release|Win32
+		{EB91708F-BE37-4A2C-897D-0777470D343A}.Debug|x64.ActiveCfg = Debug|x64
+		{EB91708F-BE37-4A2C-897D-0777470D343A}.Debug|x64.Build.0 = Debug|x64
+		{EB91708F-BE37-4A2C-897D-0777470D343A}.Debug|x86.ActiveCfg = Debug|Win32
+		{EB91708F-BE37-4A2C-897D-0777470D343A}.Debug|x86.Build.0 = Debug|Win32
+		{EB91708F-BE37-4A2C-897D-0777470D343A}.Release|x64.ActiveCfg = Release|x64
+		{EB91708F-BE37-4A2C-897D-0777470D343A}.Release|x64.Build.0 = Release|x64
+		{EB91708F-BE37-4A2C-897D-0777470D343A}.Release|x86.ActiveCfg = Release|Win32
+		{EB91708F-BE37-4A2C-897D-0777470D343A}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
